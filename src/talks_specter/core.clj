@@ -39,7 +39,7 @@
 
 
 
-
+(def 🦥 '🦥)
 
 ;; A Look at vanilla clojure
 
@@ -48,7 +48,7 @@
 (defonce blackjack-data
   [{:name "Alex" :hand [5 3 :ace] :done? true}
    {:name "Christian" :hand [2 :king 4] :done? false}
-   {:name "Björn" :hand [:queen :king :ace] :done? false}])
+   {:name 🦥 :hand [:queen :king :ace] :done? false}])
 
 
 
